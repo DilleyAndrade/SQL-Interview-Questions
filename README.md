@@ -20,7 +20,7 @@ Este repositório contém uma coleção de desafios SQL resolvidos, com uma abor
 
 2. Navegue até o desafio desejado:
    ```bash
-   cd desafios-sql/3-Hard/desafio-01
+   cd 3-Hard/desafio-01
    ```
 
 3. Rode o script de criação e inserção de dados no seu SGBD preferido:
