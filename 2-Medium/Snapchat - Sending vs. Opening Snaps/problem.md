@@ -17,6 +17,6 @@ Assuma que você recebeu tabelas com informações sobre usuários do Snapchat, 
 
 ## 🚨 Observações
 - Calcule as seguintes porcentagens:
--- Tempo gasto enviando / (Tempo gasto enviando + Tempo gasto abrindo)
--- Tempo gasto abrindo / (Tempo gasto enviando + Tempo gasto abrindo)
--- Para evitar a divisão inteira em porcentagens, multiplique por 100,0 e não por 100.
+- Tempo gasto enviando / (Tempo gasto enviando + Tempo gasto abrindo)
+- Tempo gasto abrindo / (Tempo gasto enviando + Tempo gasto abrindo)
+- Para evitar a divisão inteira em porcentagens, multiplique por 100,0 e não por 100.
