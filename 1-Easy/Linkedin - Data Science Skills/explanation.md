@@ -25,7 +25,7 @@ WHERE skill IN('Python','Tableau','PostgreSQL')
 GROUP BY candidate_id;
 ```
 
-### 3. Em seguida vamos usar o having para contar quantos candidados possuem as 3 skills que desejamos
+### 3. Em seguida vamos usar o having para contar quantos candidados possuem as 3 skills que desejamos e ordernar candidate_id de modo ascendente.
 
 ```sql
 SELECT
@@ -33,7 +33,8 @@ SELECT
 FROM candidates
 WHERE skill IN('Python','Tableau','PostgreSQL')
 GROUP BY candidate_id
-HAVING COUNT(skill) = 3;
+HAVING COUNT(skill) = 3
+ORDER BY candidate_id;
 ```
 
 ## Exemplo de Saída:
