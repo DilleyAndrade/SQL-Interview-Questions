@@ -1,12 +1,16 @@
-SELECT 
-    c.id AS cliente_id,
-    c.nome AS cliente_nome,
-    p.id AS pedido_id,
-    p.data_pedido,
-    p.valor_total
-FROM 
-    clientes c
-JOIN 
-    pedidos p ON c.id = p.cliente_id
-ORDER BY 
-    c.id, p.data_pedido;
+WITH transactions_cte
+AS (
+SELECT
+  user_id
+  ,spend
+  ,transaction_date
+  ,ROW_NUMBER() OVER(PARTITION BY user_id ORDER BY transaction_date) AS row_num
+FROM transactions
+)
+SELECT
+  user_id
+  ,spend
+  ,transaction_date
+FROM transactions_cte
+WHERE row_num = 3
+;
