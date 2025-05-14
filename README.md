@@ -6,11 +6,11 @@ Este repositório contém uma coleção de desafios SQL resolvidos, com uma abor
 ## 📌 Estrutura do Repositório
 - Cada desafio está em uma pasta separada (`desafio-01`, `desafio-02`, etc).
 - Cada pasta contém:
-  - **problema.md:** Enunciado do problema.
+  - **problem.md:** Enunciado do problema.
   - **ddl.sql:** Script de criação da base de dados.
   - **dml.sql:** Script de inserção de dados.
-  - **solucao.sql:** Solução SQL para o desafio.
-  - **explicacao.md:** Explicação do raciocínio utilizado.
+  - **solution.sql:** Solução SQL para o desafio.
+  - **explanation.md:** Explicação do raciocínio utilizado.
 
 ## 🚀 Como utilizar
 1. Clone o repositório:
@@ -20,7 +20,7 @@ Este repositório contém uma coleção de desafios SQL resolvidos, com uma abor
 
 2. Navegue até o desafio desejado:
    ```bash
-   cd desafios-sql/3-Hard/desafio-01
+   cd 3-Hard/desafio-01
    ```
 
 3. Rode o script de criação e inserção de dados no seu SGBD preferido:
